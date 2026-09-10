@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "lockyourinventory",
+  "version": "${version}",
+  "name": "Lock Your Inventory",
+  "description": "Temporarily lock Minecraft keybinds without changing their assigned keys.",
+  "authors": ["fixpot47"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.fixpot47.lockyourinventory.LockYourInventoryClient"]
+  },
+  "mixins": [
+    "lockyourinventory.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
