@@ -1,0 +1,11 @@
+{
+  "key.category.lockyourinventory.controls": "Lock Your Inventory",
+  "key.lockyourinventory.open_menu": "Open Lock Your Inventory",
+  "lockyourinventory.screen.title": "Lock Your Inventory",
+  "lockyourinventory.screen.hint": "Click a keybind to temporarily lock or unlock it",
+  "lockyourinventory.active": "Active",
+  "lockyourinventory.locked": "Locked",
+  "lockyourinventory.previous": "Previous",
+  "lockyourinventory.next": "Next",
+  "lockyourinventory.page": "Page %s / %s"
+}
