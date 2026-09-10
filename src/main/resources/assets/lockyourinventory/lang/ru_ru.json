@@ -1,0 +1,11 @@
+{
+  "key.category.lockyourinventory.controls": "Lock Your Inventory",
+  "key.lockyourinventory.open_menu": "Открыть Lock Your Inventory",
+  "lockyourinventory.screen.title": "Lock Your Inventory",
+  "lockyourinventory.screen.hint": "Нажмите на назначение клавиши, чтобы временно заблокировать или разблокировать его",
+  "lockyourinventory.active": "Активно",
+  "lockyourinventory.locked": "Заблокировано",
+  "lockyourinventory.previous": "Назад",
+  "lockyourinventory.next": "Далее",
+  "lockyourinventory.page": "Страница %s / %s"
+}
