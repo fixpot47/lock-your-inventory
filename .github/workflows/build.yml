@@ -28,10 +28,12 @@ jobs:
         run: gradle build --stacktrace
 
       - name: Prepare final jar
-        run: cp build/libs/lock-your-inventory-1.0.0.jar lock-your-inventory.jar
+        run: |
+          mkdir -p dist
+          cp build/libs/lock-your-inventory-1.1.0.jar dist/lock-your-inventory.jar
 
       - name: Upload mod jar
         uses: actions/upload-artifact@v4
         with:
-          name: lock-your-inventory-26.2
-          path: lock-your-inventory.jar
+          name: lock-your-inventory-1.1.0-26.3
+          path: dist/lock-your-inventory.jar
