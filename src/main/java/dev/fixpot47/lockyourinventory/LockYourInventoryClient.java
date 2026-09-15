@@ -23,7 +23,7 @@ public final class LockYourInventoryClient implements ClientModInitializer {
 
         openMenuKey = KeyMappingHelper.registerKeyMapping(new KeyMapping(
             OPEN_MENU_KEY_NAME,
-            InputConstants.Type.KEYSYM,
+            InputConstants.Type.KEY,
             InputConstants.KEY_I,
             CATEGORY
         ));
