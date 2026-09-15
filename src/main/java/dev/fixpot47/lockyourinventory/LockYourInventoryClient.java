@@ -1,6 +1,5 @@
 package dev.fixpot47.lockyourinventory;
 
-import com.mojang.blaze3d.platform.InputConstants;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.fabricmc.fabric.api.client.keymapping.v1.KeyMappingHelper;
@@ -23,8 +22,7 @@ public final class LockYourInventoryClient implements ClientModInitializer {
 
         openMenuKey = KeyMappingHelper.registerKeyMapping(new KeyMapping(
             OPEN_MENU_KEY_NAME,
-            InputConstants.Type.KEY,
-            InputConstants.KEY_I,
+            com.mojang.blaze3d.platform.InputConstants.KEY_I,
             CATEGORY
         ));
 
